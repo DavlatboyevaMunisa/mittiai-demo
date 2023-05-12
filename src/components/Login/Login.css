@@ -1,0 +1,68 @@
+.loginPage{
+    display: flex;
+}
+.Login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    color: var(--textColor);
+    top: 22vh;
+}
+.Login h1{
+    margin: 10px 0px;
+}
+.Login .LoginInput{
+    width: 260px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--inputBgColor);
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.368);
+}
+.Login .LoginInput::placeholder{
+    color: rgba(255, 255, 255, 0.368);
+}
+.Login button{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    color: var(--textColor);
+    font-size: 16px;
+    background-color: var(--buttonColor);
+    border: none;
+    margin: 20px 0px 0px 0px;
+    cursor: pointer;
+}
+.Login button:hover{
+    transition: 0.9s;
+    background-color: transparent;
+    border: 1px solid var(--buttonColor);
+    color: var(--buttonColor);
+}
+.loginPage .video{
+    background: transparent;
+}
+.footerLogin button{
+    background: none;
+    width: 100px;
+    margin: 5px;
+    color: var(--buttonColor);
+}
+.footerLogin  button:hover{
+    border: none;
+}
+.icon_eye{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.368);
+    cursor: pointer;
+    border: none;
+}

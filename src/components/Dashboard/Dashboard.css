@@ -1,0 +1,182 @@
+.dashboard{
+    width: 100%;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--buttonColor);
+    padding: 2rem;
+}
+header p{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px 0px
+}
+header button{
+    background: transparent;
+    border: none;
+    font-size: 60px;
+    color: white;
+}
+.main{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+    padding: 10px 0px;
+}
+.main::-webkit-scrollbar{
+    display: none;
+}
+.mittiai{
+    width: 70%;
+    height: 10vh;
+    border-radius: 50px 15px;
+    background-color: var(--inputBgColor);
+    text-align: start;
+    padding: 24px 25px;
+    display: flex;
+    margin: 20px;
+    font-size: 1.7vh;
+}
+.w-10{
+    /* width: 40px; */
+    /* border-radius: 50%; */
+    margin: -30% 8px 0px -10px;
+    font-size: 35px;
+}
+.absolute{
+    font-size: 2vh;
+    position: relative;
+    width: 140px;
+    top: 110%;
+    left: -10%;
+    color: var(--buttonColor);
+}
+.dashboardFooter{
+    width: 100%;
+    height: 175px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.dashboardFooter .footerForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
+}
+.dashboardFooter .footerForm .footerInput{
+    position: relative;
+    top: -9px;
+    width: 70%;
+    height: 65px;
+    padding: 0px 20px;
+    border: none;
+    outline: none;
+    background-color: var(--inputBgColor);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.368);
+}
+.footerButton{
+    width: 65px;
+    height: 64px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 38px;
+    border: none;
+    border-radius: 10px;
+    color: var(--buttonColor);
+    background-color: var(--inputBgColor);
+    margin: 0px 10px;
+}
+.footerButton:active{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: var(--buttonColor);
+    background-color: var(--inputBgColor);
+    border: none;
+    border-radius: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+/* .btn:hover{
+    transition: 1s;
+    width: 100px;
+    border-radius: 30px;
+} */
+p:active{
+    /* border: 1px solid var(--buttonColor); */
+    font-size: 35px;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+}
+.navigation{
+    margin: 0 auto;
+    width: 80%;
+    height: 60px;
+    background: var(--inputBgColor);
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.navigation ul{
+    display: flex;
+    width: 350px;
+}
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width: 120px;
+    height: 70px;
+    z-index: 1;
+}
+.navigation ul li p{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+}
+.navigation ul li p .icon{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: .5s;
+    color: var(--buttonColor);
+}
+.navigation ul li.active a .icon{
+    transform: translateY(-12px);
+    color: #232B2F;
+}
+.navigation ul li p .text{
+    position: absolute;
+    color: var(--buttonColor);
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: .5s;
+    transform: translateY(20px);
+    opacity: 0;
+}
+.navigation ul li.active p .text{
+    opacity: 1;
+    transform: translateY(10px);
+}

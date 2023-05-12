@@ -1,0 +1,33 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Colors and styling */
+
+:root{
+  --textColor: #ffff;
+  --bodyColor: #232b2f;
+  --inputBgColor: #232b2f;
+  --textColor: #ffffff;
+  --buttonColor: #00ffc2;
+}
+
+body{
+  /* background-color: var(--bodyColor); */
+  background-color: #151a1c;
+  /* background-color: black; */
+}
+
+.root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  /* border: 1px solid; */
+}

@@ -1,0 +1,71 @@
+.RegisterPage{
+    display: flex;
+}
+.Register{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    color: var(--textColor);
+    top: 15vh;
+}
+.Register h1{
+    margin: 10px 0px;
+}
+.Register .RegisterInput{
+    width: 260px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--inputBgColor);
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.368);
+}
+.Register .RegisterInput::placeholder{
+    color: rgba(255, 255, 255, 0.368);
+}
+.Register button{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    color: var(--textColor);
+    font-size: 16px;
+    background-color: var(--buttonColor);
+    border: none;
+    margin: 20px 0px 0px 0px;
+    cursor: pointer;
+}
+.Register button:hover{
+    transition: 0.9s;
+    background-color: transparent;
+    border: 1px solid var(--buttonColor);
+    color: var(--buttonColor);
+}
+.RegisterPage .video{
+    background: transparent;
+}
+.footerRegister button{
+    background: none;
+    width: 100px;
+    margin: 5px;
+    color: var(--buttonColor);
+}
+.footerRegister button:hover{
+    border: none;
+}
+.icon{
+    font-size: 15px;
+    margin: 0px 10px;
+}
+.password-toggle-icons{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    z-index: 1000;
+    cursor: pointer;
+}
